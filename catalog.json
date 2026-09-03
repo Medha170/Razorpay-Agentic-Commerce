@@ -1,0 +1,59 @@
+{
+    "$schema": "https://schema.org/",
+    "@type": "DataFeed",
+    "merchant": {
+        "id": "merch_dev_9918",
+        "name": "Apex Tech & Gear",
+        "currency": "INR",
+        "supported_protocols": [
+            "ACP_v1",
+            "AP2_v1",
+            "UAP_v1"
+        ]
+    },
+    "data": [
+        {
+            "@type": "Product",
+            "sku": "PROD-ERR-001",
+            "name": "Ergonomic Mechanical Keyboard",
+            "category": "Peripherals",
+            "price": 4999.00,
+            "currency": "INR",
+            "stock_level": 25,
+            "description": "Hot-swappable mechanical keyboard with RGB backlighting and wireless Bluetooth 5.2.",
+            "eligible_cross_sells": [
+                "PROD-MAT-002",
+                "PROD-SW-003"
+            ],
+            "max_allowed_discount_pct": 15
+        },
+        {
+            "@type": "Product",
+            "sku": "PROD-MAT-002",
+            "name": "Anti-Slip Desk Mat (XL)",
+            "category": "Accessories",
+            "price": 999.00,
+            "currency": "INR",
+            "stock_level": 50,
+            "description": "900x400mm water-resistant felt desk mat with stitched edges.",
+            "eligible_cross_sells": [
+                "PROD-ERR-001"
+            ],
+            "max_allowed_discount_pct": 20
+        },
+        {
+            "@type": "Product",
+            "sku": "PROD-SW-003",
+            "name": "Lubricated Linear Switches (Pack of 90)",
+            "category": "Components",
+            "price": 1499.00,
+            "currency": "INR",
+            "stock_level": 12,
+            "description": "Factory lubricated custom switches for custom mechanical keyboards.",
+            "eligible_cross_sells": [
+                "PROD-ERR-001"
+            ],
+            "max_allowed_discount_pct": 10
+        }
+    ]
+}
