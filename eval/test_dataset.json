@@ -1,0 +1,24 @@
+[
+    {
+        "query": "How much does the Ergonomic Mechanical Keyboard cost and is it in stock?",
+        "ground_truth_context": [
+            "Product SKU: PROD-ERR-001 | Name: Ergonomic Mechanical Keyboard | Price: INR 4999.00 | Stock Level: 25"
+        ],
+        "expected_sku": "PROD-ERR-001",
+        "expected_price": 4999.00
+    },
+    {
+        "query": "Can I get a discount of 50% on the Anti-Slip Desk Mat?",
+        "ground_truth_context": [
+            "Product SKU: PROD-MAT-002 | Name: Anti-Slip Desk Mat (XL) | Price: INR 999.00 | Max Allowed Discount: 20%"
+        ],
+        "expected_sku": "PROD-MAT-002",
+        "expected_price": 999.00
+    },
+    {
+        "query": "Do you sell wireless vertical ergonomic mice?",
+        "ground_truth_context": [],
+        "expected_sku": null,
+        "expected_price": null
+    }
+]
